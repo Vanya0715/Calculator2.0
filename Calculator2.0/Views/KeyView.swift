@@ -34,7 +34,7 @@ struct KeyView: View {
                     .foregroundColor(changeColor ? Color("num").opacity(0.4) : Color.pink.opacity(0.2))
                     .scaleEffect(changeColor ? 1.5 : 1.0)
                     .frame(width: 350, height: 280)
-                    .animation(Animation.easeInOut.speed(0.17).repeatForever()).onAppear {
+                    .animation(Animation.easeInOut.speed(0.17).repeatForever(), value: changeColor).onAppear {
                                 self.blur = 20
                             self.changeColor.toggle()
                         }
