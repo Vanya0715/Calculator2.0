@@ -13,7 +13,6 @@
 		D350D72D2891541F00CE67CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D350D72C2891541F00CE67CB /* Preview Assets.xcassets */; };
 		D350D7362891546C00CE67CB /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350D7352891546C00CE67CB /* KeyView.swift */; };
 		D350D7382891547900CE67CB /* calculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350D7372891547900CE67CB /* calculatorModel.swift */; };
-		D350D73A2891583400CE67CB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350D7392891583400CE67CB /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		D350D72C2891541F00CE67CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D350D7352891546C00CE67CB /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		D350D7372891547900CE67CB /* calculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorModel.swift; sourceTree = "<group>"; };
-		D350D7392891583400CE67CB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 			children = (
 				D350D7272891541F00CE67CB /* ContentView.swift */,
 				D350D7352891546C00CE67CB /* KeyView.swift */,
-				D350D7392891583400CE67CB /* ResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,7 +161,6 @@
 			files = (
 				D350D7282891541F00CE67CB /* ContentView.swift in Sources */,
 				D350D7362891546C00CE67CB /* KeyView.swift in Sources */,
-				D350D73A2891583400CE67CB /* ResultView.swift in Sources */,
 				D350D7262891541F00CE67CB /* Calculator2_0App.swift in Sources */,
 				D350D7382891547900CE67CB /* calculatorModel.swift in Sources */,
 			);
